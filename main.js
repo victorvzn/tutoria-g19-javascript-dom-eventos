@@ -20,3 +20,5 @@ buttonRandomColor.addEventListener('click', function (event) {
   // document.body.style.backgroundColor = '#' + randomColor
   document.body.style.backgroundColor = `#${randomColor}`
 })
+
+// TODO: Usar el botón copyColor para copiar el color seleccionado al clipboard (navigator.clipboard)
